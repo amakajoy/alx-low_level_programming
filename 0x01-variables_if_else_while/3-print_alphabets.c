@@ -1,27 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - A script that prints both lowercasw ;letters and uppercase letters
  *
  * Return: 0
  */
 int main(void)
 {
-	char c;
+	char lower;
+	char upper;
 
-	char d;
+	for (lower = 'a'; lower <= 'z'; lower++)
+		putchar(lower);
 
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'z') {
-			putchar(d);
-			d++;
-		}
+	for (upper 'A'; upper <= 'Z'; upper++)
+		putchar(upper);
+
 	putchar('\n');
 	return (0);
 }
