@@ -1,13 +1,10 @@
 #include "main.h"
+
 /**
- * main - Print lowercase alphabet
- *
- * Return: 0
+ * print_alphabet - prints the alpha in lowercase
  */
 void print_alphabet(void)
 {
-
-
 	char let;
 
 	for (let = 'a'; let <= 'z'; let++)
