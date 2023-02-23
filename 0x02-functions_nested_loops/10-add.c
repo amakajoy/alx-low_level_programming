@@ -1,12 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * add - add two numbers
- * @a: the first number
- * @b: the second number
- * Return: the addition of both
+ * main - Entry point
+ * @n: adding the numbers
+ * Return: 0
  */
-int add(int a, int b)
+int main(void)
 {
-	return (a + b);
+	int a = 89;
+	int b = 9;
+	int n;
+	int n = add(89, 9);
+	printf("%d\n", n);
+	return (0);
 }
